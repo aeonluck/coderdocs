@@ -83,7 +83,7 @@ nginx['listen_port'] = 8081
 # vim /etc/gitalb/gitlab.rb
 
 " 578 行，设定自定义webserver运行用户
-" 注意！此处用户应与你的ngin.conf中的 `use xxxx` 语句配置相同。
+" 注意！此处用户应与你的nginx.conf中的 `use xxxx` 语句配置相同。
 web_server['external_users'] = ['www']
 
 " 591 行，关闭内置nginx
