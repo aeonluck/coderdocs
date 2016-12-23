@@ -73,10 +73,10 @@ mysql> GRANT ALL ON jira.* TO jira_user@'localhost' IDENTIFIED BY 'my password';
 # jira-6.3.6/bin/start-jira.sh
 ```
 
-点击右上角齿轮形状的管理图标，选择“系统”，再选择“授权”，看到使用日期不到1个月。在进一步之前我们要完成以下工作：
-1. 到atlassian官网申请一个可用的licence，地址：https://id.atlassian.com/login。
-2. 登入之后，在此页面 https://my.atlassian.com/product申请一个“New Evaluation License”。"Server ID"填写我们在jira后台看到的ID，即：B7OT-4FTO-HTCL-TU0W。
-3. 复制第2步中得到的KEY，替换以下内容中的"LicenseID"，SEN替换为生成KEY得到的SEN ID。授权码参数范例如下：
+点击右上角齿轮形状的管理图标，选择“系统”，再选择“授权”，看到使用日期不到1个月。在进一步之前我们要完成以下工作:
+- 1. 到atlassian官网申请一个可用的licence，地址：https://id.atlassian.com/login
+- 2. 登入之后，在此页面 https://my.atlassian.com/product申请一个 “New Evaluation License”。"Server ID"填写我们在jira后台看到的ID，即：B7OT-4FTO-HTCL-TU0W。
+- 3. 复制第2步中得到的KEY，替换以下内容中的"LicenseID"，SEN替换为生成KEY得到的SEN ID。授权码参数范例如下：
 ```
 Description=JIRA: Commercial,
 CreationDate=你的安装日期，格式（yyyy-mm-dd）,
