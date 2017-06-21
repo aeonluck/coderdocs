@@ -41,7 +41,7 @@ Atlanssian Confluence作为一款主流的多人文档协作软件，在各大�
 # cp mysql-connector-java-5.1.26-bin.jar ./
 ```
 
-3. 破解！复制安装包中的“atlassian-extras-2.4.jar”到confluence的安装目录下的WEB-INF/lib目录下，重启confluence服务即完成相关破解。
+3. 破解！复制安装包中的“atlassian-extras-2.4.jar”到安装目录下的confluence/WEB-INF/lib目录下，重启confluence服务即完成相关破解。
 ```shell
 # cd /usr/local/confluence-5.4.4/confluence/WEB-INF/lib
 # cp /path/to/downlodas/atlassian-extras-2.4.jar ./
@@ -154,7 +154,7 @@ binlog_format=ROW
 
 # vim catalina.sh
 " 在88行“cygwin=false”前加入：
-JAVA_OPTS="-Xms1024m -Xmm1024m -XX:UseGCOverheadLimit"
+JAVA_OPTS="-Xms1024m -Xmm1024m -XX:+UseGCOverheadLimit"
 
 " 保存退出，重启confluence
 # service confluence restart
