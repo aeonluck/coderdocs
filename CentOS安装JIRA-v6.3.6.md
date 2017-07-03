@@ -53,6 +53,7 @@ Tomcat started.
 ```shell
 mysql> CREATE DATABASE `jira` CHARACTER SET utf8 COLLATE utf8_general_ci;
 mysql> GRANT ALL ON jira.* TO jira_user@'localhost' IDENTIFIED BY 'my password';
+mysql> flush privileges;
 ```
 
 继续按页面填写相关站点信息，域名等。然后选择自定义的JIRA运作模式（项目管理，软件开发，IT服务桌面），通常选择“项目管理”模式，下一步，选择“I have a JIRA key”，填写以下临时授权key：
