@@ -35,7 +35,7 @@ Atlanssian Confluence作为一款主流的多人文档协作软件，在各大�
 > - 在安装时，建议选择自定义安装，以便可以修改安装目录，数据目录与端口，以及是否作为独立服务。
 > - 本文以独立服务为实现方式。关于嵌入其它的应用服务器如tomcat的方法，请查询相关资料。
 
-2.安装confluence mysql连接器驱动，复制安装包中的mysql驱动到confluence安装目录confluence/lib目录下，重启confluence服务。
+2.安装confluence mysql连接器驱动，复制安装包中的mysql驱动到confluence安装目录下的lib目录下，重启confluence服务。
 ```shell
 # cd /path/to/confluence-5.4.4/lib
 # cp mysql-connector-java-5.1.26-bin.jar ./
