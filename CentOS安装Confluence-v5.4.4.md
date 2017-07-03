@@ -113,10 +113,12 @@ service confluence restart
 
 " 增加内容如下：
 server｛
-   server_name wiki.mydomain.com;
-   location / {
+   server_name wiki.mydomain.com;
+   
+   location / {
         proxy_pass   http://127.0.0.1:8090;
-        ; 传递真实的头部信息
+        
+        # 传递真实的头部信息
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
