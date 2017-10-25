@@ -43,7 +43,7 @@ gpgkey=https://packages.gitlab.com/gpg.key
 ```
 
 ## 2.2.执行安装
-1. 安装gitlab主程序：gitlab-ce
+1. 安装gitlab主程序：gitlab-c【失效】
 ```shell
 $ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
 $ sudo yum install gitlab-ce
@@ -53,8 +53,10 @@ $ sudo yum install gitlab-ce
 # curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/7/gitlab-ce-XXX.rpm/download
 # rpm -i gitlab-ce-XXX.rpm
 ```
+> 官方下载地址：https://about.gitlab.com/downloads/archives/
+> PS : 藏得尼玛鬼深 T_T
 
-2. 清华大学软件源安装
+2. 清华大学软件源安装【已关闭，失效】
 ```shell
 # yum install gitlab-ce
 ```
