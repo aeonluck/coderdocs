@@ -202,6 +202,13 @@ EOS
 # gitlab-ctl reconfigure
 ```
 
+5. 启动与关闭gitlab
+```shell
+gitlab-ctl start
+gitlab-ctl stop
+gitlab-ctl restart
+```
+
 # 3.附录
 1. [gitlab官网](https://about.gitlab.com/downloads/)
 2. [gitlab清华大学源](https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/)   
