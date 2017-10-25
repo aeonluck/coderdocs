@@ -209,7 +209,18 @@ gitlab-ctl stop
 gitlab-ctl restart
 ```
 
-# 3.附录
+# 3.初始化
+## 3.1.初始密码
+```
+# 标准编译安装
+admin@local.host｜5iveL!fe
+
+# RPM安装
+root｜5iveL!fe
+```
+
+# 4.附录
 1. [gitlab官网](https://about.gitlab.com/downloads/)
 2. [gitlab清华大学源](https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/)   
 3. [gitlab相关配置](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/nginx.md#setting-the-nginx-listen-port)
+4. [GitLab 之 Linux十分钟快装](http://www.cnblogs.com/highsea90/p/5191340.html)
