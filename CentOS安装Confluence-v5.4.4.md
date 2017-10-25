@@ -159,7 +159,7 @@ binlog_format=ROW
 
 # vim catalina.sh
 " 在88行“cygwin=false”前加入：
-JAVA_OPTS="-Xms1024m -Xmm1024m -XX:+UseGCOverheadLimit"
+JAVA_OPTS="-Xms1024m -Xmx1024m -XX:+UseGCOverheadLimit"
 
 " 保存退出，重启confluence
 # service confluence restart
